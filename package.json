@@ -1,10 +1,10 @@
 {
-  "name": "automatic-site",
+  "name": "test-westlink",
   "version": "0.0.1",
-  "description": "Верстка сайта модуль автоматика",
+  "description": "test westlink",
   "repository": {
     "type": "git",
-    "url": "https://onlinebees.visualstudio.com/seaquarium-site"
+    "url": "https://github.com/SDim87/test-westlink"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --watch",

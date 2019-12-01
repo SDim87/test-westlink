@@ -1,6 +1,6 @@
-# automatic-site
+# test westlink
 
-> Верстка сайта модуль автоматика. Используется [webpack-BEM-Vue](https://github.com/HummerHead87/webpack-BEM-Vue) бойлерплейт.
+> Test Westlink.
 
 ## Установка и запуск
 
