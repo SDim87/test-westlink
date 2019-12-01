@@ -1,0 +1,9 @@
+@import './../../css/variables.css';
+
+.persons {
+  border: 1px solid var(--color-first);
+  border-radius: 2px;
+  box-shadow: var(--shadow-first);
+
+  grid-column: 5 / 7;
+}

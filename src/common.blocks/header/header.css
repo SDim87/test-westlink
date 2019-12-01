@@ -1,0 +1,38 @@
+@import './../../css/variables.css';
+
+.header {
+  border: 1px solid var(--color-first);
+}
+
+.header__inner {
+  display: flex;
+  min-height: 60px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__links {
+  display: flex;
+  list-style-type: none;
+
+  align-items: center;
+}
+
+.header__link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header__link {
+  transition: var(--transition);
+  color: var(--color-second);
+}
+
+.header__link:hover {
+  color: var(--color-main);
+}
+
+.header__link.is-active {
+  pointer-events: none;
+  color: var(--color-main);
+}

@@ -1,0 +1,37 @@
+@import './../../css/variables.css';
+
+.search {
+  min-width: 420px;
+}
+
+.search__group {
+  position: relative;
+}
+
+.search__group > .icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
+
+.search__input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  padding: 0 8px 0 40px;
+  transition: var(--transition);
+  border: 1px solid var(--color-first);
+  border-radius: 4px;
+  box-shadow: var(--shadow-first);
+  font-size: var(--font-fira);
+  line-height: 30px;
+}
+
+.search__input:hover {
+  box-shadow: var(--shadow-second);
+}
+
+.search__input::placeholder {
+  color: var(--color-main);
+}

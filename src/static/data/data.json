@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Module first",
+    "number": "129",
+    "percent": "33",
+    "rise": false
+  },
+  {
+    "id": "2",
+    "name": "Module second",
+    "number": "398",
+    "percent": "75",
+    "rise": true
+  },
+  {
+    "id": "3",
+    "name": "Module third",
+    "number": "567",
+    "percent": "95",
+    "rise": true
+  },
+  {
+    "id": "4",
+    "name": "Module fourth",
+    "number": "453",
+    "percent": "45",
+    "rise": true
+  },
+  {
+    "id": "5",
+    "name": "Module fifth",
+    "number": "678",
+    "percent": "69",
+    "rise": false
+  },
+  {
+    "id": "6",
+    "name": "Module sixth",
+    "number": "398",
+    "percent": "21",
+    "rise": false
+  }
+]

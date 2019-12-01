@@ -1,0 +1,23 @@
+@import './../../css/variables.css';
+
+.checkbox__label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.checkbox__label::before {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  content: '';
+  transition: var(--transition);
+  background: url('checkbox-off.svg') no-repeat;
+}
+
+.checkbox:checked + .checkbox__label::before {
+  background: url('checkbox-on.svg') no-repeat;
+}

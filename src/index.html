@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello World</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="image" src="./common.blocks/logo/logo.png" alt="logo">
+        </a>
+        <div class="search">
+          <form class="search__form" action="#">
+            <div class="search__group">
+              <input class="search__input" type="search" placeholder="Search">
+              <svg class="icon icon_first icon_size_m">
+                <use xlink:href="#search"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
+        <ul class="header__links">
+          <li class="header__link is-active">
+            <a href="#">Ссылка 1</a>
+          </li>
+          <li class="header__link">
+            <a href="#">Ссылка 2</a>
+          </li>
+          <li class="header__link">
+            <a href="#">Ссылка 3</a>
+          </li>
+          <li class="header__link">
+            <a href="#">Ссылка 4</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="info block">
+        <h2 class="visually-hidden">Информация</h2>
+        <ul class="info__left">
+          <li class="info__item">Min: <span class="info__data">10%</span></li>
+          <li class="info__item">Max: <span class="info__data">10%</span></li>
+        </ul>
+        <div class="info__note"><span>Min</span> and <span>Max</span> values from modules</div>
+      </section>
+      <div class="main__grid">
+        <article class="module block">
+          <h2 class="visually-hidden">Модуль 1</h2>
+          <div class="module__left">
+            <div class="module__name"></div>
+            <div class="module__number"></div>
+            <svg class="icon icon_main icon_size_l icon_statistic">
+              <use xlink:href="#arrow-up"></use>
+            </svg>
+          </div>
+          <div class="module__right">
+            <div class="module__canvas">
+              <div class="module__percent">
+                <span class="module__percent-data"></span>%
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="module block">
+          <h2 class="visually-hidden">Модуль 2</h2>
+          <div class="module__left">
+            <div class="module__name"></div>
+            <div class="module__number"></div>
+            <svg class="icon icon_main icon_size_l icon_statistic">
+              <use xlink:href="#arrow-up"></use>
+            </svg>
+          </div>
+          <div class="module__right">
+            <div class="module__canvas">
+              <div class="module__percent">
+                <span class="module__percent-data"></span>%
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="module block">
+          <h2 class="visually-hidden">Модуль 3</h2>
+          <div class="module__left">
+            <div class="module__name"></div>
+            <div class="module__number"></div>
+            <svg class="icon icon_main icon_size_l icon_statistic">
+              <use xlink:href="#arrow-up"></use>
+            </svg>
+          </div>
+          <div class="module__right">
+            <div class="module__canvas">
+              <div class="module__percent">
+                <span class="module__percent-data"></span>%
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="module block">
+          <h2 class="visually-hidden">Модуль 4</h2>
+          <div class="module__left">
+            <div class="module__name"></div>
+            <div class="module__number"></div>
+            <svg class="icon icon_main icon_size_l icon_statistic">
+              <use xlink:href="#arrow-up"></use>
+            </svg>
+          </div>
+          <div class="module__right">
+            <div class="module__canvas">
+              <div class="module__percent">
+                <span class="module__percent-data"></span>%
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="module block">
+          <h2 class="visually-hidden">Модуль 5</h2>
+          <div class="module__left">
+            <div class="module__name"></div>
+            <div class="module__number"></div>
+            <svg class="icon icon_main icon_size_l icon_statistic">
+              <use xlink:href="#arrow-up"></use>
+            </svg>
+          </div>
+          <div class="module__right">
+            <div class="module__canvas">
+              <div class="module__percent">
+                <span class="module__percent-data"></span>%
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="module block">
+          <h2 class="visually-hidden">Модуль 6</h2>
+          <div class="module__left">
+            <div class="module__name"></div>
+            <div class="module__number"></div>
+            <svg class="icon icon_main icon_size_l icon_statistic">
+              <use xlink:href="#arrow-up"></use>
+            </svg>
+          </div>
+          <div class="module__right">
+            <div class="module__canvas">
+              <div class="module__percent">
+                <span class="module__percent-data"></span>%
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="block" style="grid-column: 1 / 3;">
+          <h2>График</h2>
+        </article>
+        <article class="value block">
+          <h2 class="visually-hidden">Уровни</h2>
+          <ul class="value__list">
+            <li class="value__item">
+              <div class="value__title">Value 01</div>
+              <div class="value__mark">
+                <span class="value__level"></span>
+              </div>
+            </li>
+            <li class="value__item">
+              <div class="value__title">Value 02</div>
+              <div class="value__mark">
+                <span class="value__level"></span>
+              </div>
+            </li>
+            <li class="value__item">
+              <div class="value__title">Value 03</div>
+              <div class="value__mark">
+                <span class="value__level"></span>
+              </div>
+            </li>
+            <li class="value__item">
+              <div class="value__title">Value 04</div>
+              <div class="value__mark">
+                <span class="value__level"></span>
+              </div>
+            </li>
+            <li class="value__item">
+              <div class="value__title">Value 05</div>
+              <div class="value__mark">
+                <span class="value__level"></span>
+              </div>
+            </li>
+            <li class="value__item">
+              <div class="value__title">Value 06</div>
+              <div class="value__mark">
+                <span class="value__level"></span>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article class="stat block">
+          <h2 class="visually-hidden">Статистика</h2>
+          <table class="table">
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box">
+                  <svg class="icon icon_size_l">
+                    <use xlink:href="#circle"></use>
+                  </svg>
+                </div>
+              </td>
+              <td class="table__cell">Module 1</td>
+              <td class="table__cell">Min: 10</td>
+              <td class="table__cell">Mid: 10</td>
+              <td class="table__cell">Max: 10</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box">
+                  <svg class="icon icon_size_l">
+                    <use xlink:href="#circle"></use>
+                  </svg>
+                </div>
+              </td>
+              <td class="table__cell">Module 1</td>
+              <td class="table__cell">Min: 10</td>
+              <td class="table__cell">Mid: 10</td>
+              <td class="table__cell">Max: 10</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box">
+                  <svg class="icon icon_size_l">
+                    <use xlink:href="#circle"></use>
+                  </svg>
+                </div>
+              </td>
+              <td class="table__cell">Module 1</td>
+              <td class="table__cell">Min: 10</td>
+              <td class="table__cell">Mid: 10</td>
+              <td class="table__cell">Max: 10</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box">
+                  <svg class="icon icon_size_l">
+                    <use xlink:href="#circle"></use>
+                  </svg>
+                </div>
+              </td>
+              <td class="table__cell">Module 1</td>
+              <td class="table__cell">Min: 10</td>
+              <td class="table__cell">Mid: 10</td>
+              <td class="table__cell">Max: 10</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box">
+                  <svg class="icon icon_size_l">
+                    <use xlink:href="#circle"></use>
+                  </svg>
+                </div>
+              </td>
+              <td class="table__cell">Module 1</td>
+              <td class="table__cell">Min: 10</td>
+              <td class="table__cell">Mid: 10</td>
+              <td class="table__cell">Max: 10</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box">
+                  <svg class="icon icon_size_l">
+                    <use xlink:href="#circle"></use>
+                  </svg>
+                </div>
+              </td>
+              <td class="table__cell">Module 1</td>
+              <td class="table__cell">Min: 10</td>
+              <td class="table__cell">Mid: 10</td>
+              <td class="table__cell">Max: 10</td>
+            </tr>
+          </table>
+        </article>
+        <article class="block" style="grid-column: 1 / 5;">
+          <h2>График</h2>
+        </article>
+        <article class="persons block">
+          <h2 class="visually-hidden">Работники</h2>
+          <table class="table">
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-1.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check1" name="check1">
+                <label class="checkbox__label" for="check1"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-2.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check2" name="check2">
+                <label class="checkbox__label" for="check2"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-3.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check3" name="check3">
+                <label class="checkbox__label" for="check3"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-4.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check4" name="check4">
+                <label class="checkbox__label" for="check4"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-5.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check5" name="check5">
+                <label class="checkbox__label" for="check5"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-6.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check6" name="check6">
+                <label class="checkbox__label" for="check6"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-7.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check7" name="check7">
+                <label class="checkbox__label" for="check7"></label>
+              </td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="table__box table__box_img">
+                  <img class="image" src="./common.blocks/persons/persons__img-8.png" alt="img">
+                </div>
+              </td>
+              <td class="table__cell">First Last</td>
+              <td class="table__cell">Worker</td>
+              <td class="table__cell">Online</td>
+              <td class="table__cell table__cell_check">
+                <input class="checkbox visually-hidden" type="checkbox" id="check8" name="check8">
+                <label class="checkbox__label" for="check8"></label>
+              </td>
+            </tr>
+          </table>
+        </article>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

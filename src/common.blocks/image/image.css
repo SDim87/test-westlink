@@ -1,0 +1,10 @@
+.image {
+  display: block;
+  width: 100%;
+}
+
+.image_second {
+  height: 100%;
+
+  object-fit: cover;
+}

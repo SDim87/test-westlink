@@ -1,0 +1,12 @@
+:root {
+  --color-main: #000;
+  --color-first: #F5F5F5;
+  --color-second:  #919191;
+
+  --shadow-first: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  --shadow-second: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+  --font-fira: 'Fira Code', Arial, Helvetica, sans-serif;
+
+  --transition: all 0.2s ease-in-out;
+}

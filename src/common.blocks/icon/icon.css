@@ -1,0 +1,23 @@
+@import './../../css/variables.css';
+
+.icon {
+  transition: var(--transition);
+}
+
+.icon_main {
+  fill: var(--color-main);
+}
+
+.icon_first {
+  fill: var(--color-first);
+}
+
+.icon_size_m {
+  width: 14px;
+  height: 14px;
+}
+
+.icon_size_l {
+  width: 20px;
+  height: 20px;
+}

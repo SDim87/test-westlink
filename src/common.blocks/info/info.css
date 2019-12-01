@@ -1,0 +1,39 @@
+@import './../../css/variables.css';
+
+.info {
+  display: flex;
+  box-sizing: border-box;
+  min-height: 26px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info__left {
+  display: flex;
+  list-style-type: none;
+
+  align-items: center;
+}
+
+.info__item {
+  font-weight: 700;
+}
+
+.info__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.info__item.is-statistic-down .icon {
+  transform: rotate(90deg);
+}
+
+.info__note {
+  color: var(--color-second);
+}
+
+.info__note span {
+  font-weight: 700;
+}
