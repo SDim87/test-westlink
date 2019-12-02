@@ -23,9 +23,9 @@
     ]
   },
   "dependencies": {
-    "normalize.css": "^8.0.0",
-    "vue": "^2.5.16",
-    "babel-polyfill": "^6.26.0"
+    "babel-polyfill": "^6.26.0",
+    "chart.js": "^2.9.3",
+    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.6",

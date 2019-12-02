@@ -6,3 +6,7 @@
   border-radius: 2px;
   box-shadow: var(--shadow-first);
 }
+
+.block_second {
+  padding: 0;
+}
